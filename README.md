@@ -1,5 +1,10 @@
-个人练习
-    由于svg动画的原因，目前只支持4.1-4.4。模拟器测试。
+[演示]
+https://github.com/thicket/android-demo/blob/master/demo.gif
+
+[说明]
+个人练习用
+* 由于svg动画的原因，目前只支持4.1-4.4。模拟器测试。
+
 [基础配置]
 
 file gradle/wrapper/gradle-wrapper.properties
@@ -15,6 +20,7 @@ file app/build.gradle
     dependencies {
         compile 'com.android.support:appcompat-v7:25.2.0'
     }
+[内容]
 
 高德地图
 * 展示地图

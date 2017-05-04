@@ -1,0 +1,17 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/test">
+
+    <target
+        android:name="line"
+        android:animation="@animator/test_line"/>
+
+    <target
+        android:name="circle1"
+        android:animation="@animator/test_circle1"/>
+
+    <target
+        android:name="circle2"
+        android:animation="@animator/test_circle2"/>
+
+</animated-vector>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="5dp"
+    android:background="@color/white">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/nav_left_prev"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="12dp"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/nav_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/nav_left_prev"
+        android:paddingTop="15dp"
+
+        android:text=""
+        android:textColor="@color/blue"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:lines="1" />
+
+</RelativeLayout>

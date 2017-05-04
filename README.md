@@ -20,6 +20,15 @@ file app/build.gradle
     dependencies {
         compile 'com.android.support:appcompat-v7:25.2.0'
     }
+    
+根据 cpu 类型，打开app时，arm有高德地图，x86则没有。
+app/src/main/AndroidManifest.xml
+        <!-- 设置key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="请填入自己的key" />
+            
+
 [内容]
 
 >高德地图

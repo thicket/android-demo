@@ -1,5 +1,7 @@
 <img src="https://github.com/thicket/android-demo/blob/master/demo.gif" alt="DEMO演示"/>
 
+[demo下载]
+<a href="https://github.com/thicket/android-demo/raw/master/demo.apk">下载</a>
 
 [说明]
 个人练习用
